@@ -1,0 +1,127 @@
+{
+  "name": "dhen padilla",
+  "headerTaglineTwo": "dhen padilla",
+  "headerTaglineThree": "software engineer",
+  "headerTaglineFour": "among other things",
+  "showCursor": false,
+  "showBlog": true,
+  "darkMode": true,
+  "showResume": true,
+  "socials": [
+    {
+      "id": "1",
+      "title": "github",
+      "link": "https://github.com/DhenPadilla"
+    },
+    {
+      "id": "2",
+      "title": "linkedin",
+      "link": "https://www.linkedin.com/in/DhenPadilla/"
+    },
+    { "id": "3", "title": "email", "link": "mailto:dhenepadilla@gmail.com" }
+  ],
+  "projects": [
+    {
+        "id": "1",
+        "title": "nft gallery",
+        "description": "a collection of photographs by dhen - minted as nfts. available to buy via celo gold",
+        "imageSrc": "https://dhenpadilla.com/static/c6955d28ada1ec18af611a89f1a65d2c/5707d/Rendezvous.png",
+        "url": "http://dhenpadilla.com/gallery"
+    },
+    {
+      "id": "2",
+      "title": "rendezvous",
+      "description": "a location sharing application - in progress",
+      "imageSrc": "https://dhenpadilla.com/static/c6955d28ada1ec18af611a89f1a65d2c/5707d/Rendezvous.png",
+      "url": "http://chetanverma.com/"
+    },
+    {
+      "id": "3",
+      "title": "tomoni",
+      "description": "a decentralised method for concrete stakeholder input in construction projects. the product of my masters thesis",
+      "imageSrc": "https://dhenpadilla.com/static/61d9b9cd6005f83f623915b38f8375e8/6c0d9/cover.png",
+      "url": "http://chetanverma.com/"
+    },
+    {
+      "id": "4",
+      "title": "ksquad",
+      "description": "a hierarchical nlp model using roberta & albert created to answer gcse biology questions based on the squad question and answer dataset built within a colaboratory notebook, using pytorch transformers and pre-trained albert model (on squad dataset) including a hierarchy of new sequence classifiers, trained on our novel biology dataset",
+      "imageSrc": "https://dhenpadilla.com/static/ef4ffed62beae61c04c99d1fe7927787/e3fce/Flow_4.jpg",
+      "url": "http://chetanverma.com/"
+    },
+    {
+      "id": "5",
+      "title": "delamp",
+      "description": "a decentralised legal agreement marketplace protocol. simultaneously creates a legal paper contract whilst deploying a smart contract. built during the ethberlinzwei hackathon and winner of 2 tracks",
+      "imageSrc": "https://dhenpadilla.com/static/a9d6c70b048980e89fe16eb2ce623a07/6dbd7/delamp.png",
+      "url": "http://chetanverma.com/"
+    },
+    {
+      "id": "6",
+      "title": "alice",
+      "description": "a decentralised donations platform promoting transparency and accountability in the philantrophy sector.",
+      "imageSrc": "https://dhenpadilla.com/static/13f1044a5aec37a8305443296a26dc40/37d86/alicesi.jpg",
+      "url": "http://chetanverma.com/"
+    }
+  ],
+  "services": [
+    {
+      "id": "1",
+      "title": "Art Direction",
+      "description": "We help with the creation and development of online advertising ideas, with particular focus on their visual appearance."
+    },
+    {
+      "id": "2",
+      "title": "Branding",
+      "description": "We design key brand elements such as the logo, color scheme, typography, and other design components that makes your brand stand out from competitors."
+    },
+    {
+      "id": "3",
+      "title": "Web Design",
+      "description": "We build and optimize your online presence.  Website is the digital entry point into your business and a powerful revenue channel."
+    },
+    {
+      "id": "4",
+      "title": "3D Design",
+      "description": "We combine creative design and technical skills to build striking 3D visualisations that bring your project to life."
+    }
+  ],
+  "aboutpara": "a full-stack software engineer with 3 years of experience. \ncurrently at provenance and previously at arm. driven to create social change and determined to impact the world in a positive way.",
+  "resume": {
+    "tagline": "full-stack software engineer.",
+    "experiences": [
+      {
+        "id": "1",
+        "dates": "may 2022 - present",
+        "type": "provenance",
+        "position": "software engineer"
+      },
+      {
+        "id": "2",
+        "dates": "december 2020 - may 2022",
+        "type": "arm",
+        "position": "software engineer"
+      },
+      {
+        "id": "3",
+        "dates": "september 2020 - december 2020",
+        "type": "tjx",
+        "position": "graduate back-end engineer"
+      },
+      {
+        "id": "4",
+        "dates": "june 2018 - december 2019",
+        "type": "alice",
+        "position": "software developer"
+      }
+    ],
+    "education": {
+      "universityName": "university college london",
+      "universityDate": "2016-2020",
+      "universityPara": "master of engineering, computer science - first class honours"
+    },
+    "languages": ["Javascript", "HTML5", "CSS", "Python", "Go"],
+    "frameworks": ["React", "Typescript", "NodeJs"],
+    "others": ["Figma", "AdobeXD", "AWS"]
+  }
+}
