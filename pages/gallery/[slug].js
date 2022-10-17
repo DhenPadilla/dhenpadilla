@@ -27,7 +27,6 @@ const BlogPost = ({ post }) => {
         <title>{post.title}</title>
         <meta name="description" content={post.preview} />
       </Head>
-      {data.showCursor && <Cursor />}
 
       <div
         className={`px-10 mt-10 ${

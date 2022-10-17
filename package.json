@@ -9,9 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@celo/rainbowkit-celo": "^0.1.1",
     "@headlessui/react": "^1.6.6",
+    "@rainbow-me/rainbowkit": "^0.7.1",
     "autoprefixer": "^10.4.7",
     "custom-cursor-react": "^1.0.5",
+    "dotenv": "^16.0.3",
+    "ethers": "^5.7.1",
+    "graphql": "^16.6.0",
     "gray-matter": "^4.0.3",
     "gsap": "^3.10.4",
     "next": "12.1.6",
@@ -28,7 +33,10 @@
     "remark-html": "^15.0.1",
     "styled-components": "^5.3.5",
     "tailwindcss": "^3.0.24",
-    "uuid": "^8.3.2"
+    "urql": "^3.0.3",
+    "uuid": "^8.3.2",
+    "wagmi": "^0.7.3",
+    "web3modal": "^1.9.9"
   },
   "devDependencies": {
     "eslint": "8.15.0",
