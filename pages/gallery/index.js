@@ -82,7 +82,7 @@ const Gallery = () => {
               nft gallery
             </h1>
             <div className="w-full flex justify-between">
-              <p className="p-2 w-1/2">all work is my own, and are minted dhenfts. contracts were built by myself, deployed on celo. { isConnected ? "have a browse." : "connect a celo wallet to see which are still available to purchase." }</p>
+              <p className="p-2 w-1/2">all work is my own, and are minted dhenfts. contracts were built by myself, deployed on celo. { isConnected ? "" : "connect a celo wallet to see which are still available to purchase." }</p>
               <div className="float-right">
                 <CustomConnect accountStatus="avatar"/>
               </div>
