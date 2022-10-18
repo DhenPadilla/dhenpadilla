@@ -52,7 +52,7 @@ const Gallery = () => {
       fetchListings();
     }
     else {
-      const pseudoListings = Array.from({length: 20}, (_, i) => { 
+      const pseudoListings = Array.from({length: 24}, (_, i) => { 
         const index = i + 1;
         return { 
           tokenId: `${index}`,
