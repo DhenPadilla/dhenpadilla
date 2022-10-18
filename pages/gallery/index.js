@@ -11,6 +11,7 @@ import { dhenNFTAbi, NFT_CONTRACT_ADDRESS, SUBGRAPH_URL, baseUri } from "../../c
 import Listing from "../../components/Listing";
 import { Contract } from "ethers";
 import { listingsQuery } from "../../utils/graphQueries";
+import { CustomConnect } from "../../components/CustomConnect";
 
 const Gallery = () => {
   const text = useRef();
@@ -34,12 +35,12 @@ const Gallery = () => {
     // Send the query to the subgraph GraphQL API, and get the response
     const response = await urqlClient.query(listingsQuery).toPromise();
     const listingEntities = response.data.listingEntities.map((listing) => {
+      const tokenId = parseInt(listing.tokenId);
       return {
         ...listing, 
-        name: parseInt(listing.tokenId) < 10 ? `untitled 0${listing.tokenId}` : `untitled ${listing.tokenId}`
+        name: tokenId < 10 ? `untitled 0${tokenId}` : `untitled ${tokenId}`
       };
     });
-    console.log(listingEntities);
 
     // Update state variables
     setListings(listingEntities);
@@ -52,14 +53,15 @@ const Gallery = () => {
     }
     else {
       const pseudoListings = Array.from({length: 20}, (_, i) => { 
+        const index = i + 1;
         return { 
-          tokenId: `${(i + 1)}`,
-          name: (i < 10) ? `untitled 0${i}` : `untitled ${i}`
+          tokenId: `${index}`,
+          name: (index < 10) ? `untitled 0${index}` : `untitled ${index}`
         }
       });
       setListings(pseudoListings);
     }
-  }, []);
+  }, [isConnected]);
 
   return (
       <>
@@ -80,9 +82,9 @@ const Gallery = () => {
               nft gallery
             </h1>
             <div className="w-full flex justify-between">
-              <p className="p-2 w-1/2">all work is my own. each one is a dhen-nft built by me and deployed on celo. { isConnected ? "have a browse." : "connect your celo wallet to see which are still available to purchase." }</p>
+              <p className="p-2 w-1/2">all work is my own, and are minted dhenfts. contracts were built by myself, deployed on celo. { isConnected ? "have a browse." : "connect a celo wallet to see which are still available to purchase." }</p>
               <div className="float-right">
-                <ConnectButton/>
+                <CustomConnect accountStatus="avatar"/>
               </div>
             </div>
             { loading ? 
@@ -94,7 +96,13 @@ const Gallery = () => {
                 {listings &&
                   listings.map((listing) => (
                     <div className="inline-block flex-none mx-2 h-[400px] align-bottom ease-in duration-100 hover:cursor-pointer hover:opacity-70">
-                      <Listing key={listing.tokenId} name={listing.name} tokenId={listing.tokenId} imageUrl={`${baseUri}${listing.tokenId}.jpg`}/>
+                      <Listing 
+                        key={listing.tokenId} 
+                        name={listing.name} 
+                        tokenId={listing.tokenId} 
+                        imageUrl={`${baseUri}${listing.tokenId}.jpg`}
+                        price={listing.price}
+                        buyer={listing.buyer}/>
                     </div>
                   ))
                 }

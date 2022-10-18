@@ -11,3 +11,17 @@ export const listingsQuery = `
     }
     }
 `;
+
+export const findListing = (tokenId) => {
+  console.log("tokenId? ", tokenId);
+  return `
+    query ListingQuery {
+        listingEntities(where: {tokenId: ${tokenId}}) {
+          id
+          nftAddress
+          tokenId
+          price
+          buyer
+        }
+    }`;
+};

@@ -120,8 +120,8 @@
       "universityDate": "2016-2020",
       "universityPara": "master of engineering, computer science - first class honours"
     },
-    "languages": ["Javascript", "HTML5", "CSS", "Python", "Go"],
-    "frameworks": ["React", "Typescript", "NodeJs"],
-    "others": ["Figma", "AdobeXD", "AWS"]
+    "languages": ["scala", "dart", "ruby", "javascript", "typescript", "sql", "solidity", "shell"],
+    "frameworks": ["rails", "react", "next", "flutter", "nodejs/express", "cats", "docker", "kafka", "aws", "ansible", "terraform", "hardhat"],
+    "others": ["sketch"]
   }
 }

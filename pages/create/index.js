@@ -1,17 +1,17 @@
 import { Contract } from "ethers";
 import { isAddress, parseEther } from "ethers/lib/utils";
-import Link from "next/link";
 import Head from "next/head";
-import Header from "../../components/Header";
-import { useState, useEffect } from "react";
-import { useSigner, erc721ABI } from "wagmi";
+import Link from "next/link";
+import { useEffect, useState } from "react";
 import { createClient } from "urql";
+import { useSigner, useContract } from "wagmi";
 import MarketplaceABI from "../../abis/NFTMarketplace.json";
+import Header from "../../components/Header";
 import {
-  dhenNFTAbi,
-  NFT_CONTRACT_ADDRESS,
-  NFT_MARKETPLACE_ADDRESS,
-  SUBGRAPH_URL
+    dhenNFTAbi,
+    NFT_CONTRACT_ADDRESS,
+    NFT_MARKETPLACE_ADDRESS,
+    SUBGRAPH_URL
 } from "../../constants";
 import { listingsQuery } from "../../utils/graphQueries";
 
@@ -29,6 +29,11 @@ export const Create = () => {
 
   // Get signer from wagmi
   const { data: signer } = useSigner();
+  const MarketplaceContract = useContract({
+    address: NFT_MARKETPLACE_ADDRESS,
+    abi: MarketplaceABI,
+    signerOrProvider: signer,
+  });
 
   useEffect(() => {
     getNewTokenId();
@@ -55,12 +60,6 @@ export const Create = () => {
         signer
       );
 
-      // Initialise an instance of the marketplace contract
-      const MarketplaceContract = new Contract(
-        NFT_MARKETPLACE_ADDRESS,
-        MarketplaceABI,
-        signer
-      );
         
       // Mint a new DheNFT
       await mintToken(DheNFTContract);

@@ -7,8 +7,7 @@ import Socials from "../components/Socials";
 import Button from "../components/Button";
 import { useTheme } from "next-themes";
 // Data
-import { name, showResume } from "../data/portfolio.json";
-import { resume } from "../data/portfolio.json";
+import { name, resume } from "../data/portfolio.json";
 import data from "../data/portfolio.json";
 
 const Resume = () => {
@@ -18,9 +17,6 @@ const Resume = () => {
 
   useEffect(() => {
     setMount(true);
-    if (!showResume) {
-      router.push("/");
-    }
   }, []);
   return (
     <>
@@ -79,43 +75,35 @@ const Resume = () => {
               </div>
               <div className="mt-5">
                 <h1 className="text-2xl font-medium">skills</h1>
-                <div className="flex mob:flex-col desktop:flex-row justify-between">
+                <div className="flex mob:flex-col desktop:flex-row justify-between w-3/4">
                   {resume.languages && (
                     <div className="mt-2 mob:mt-5">
-                      <h2 className="text-md">languages</h2>
-                      <ul className="list-disc">
+                      <h2 className="text-md mb-2">languages</h2>
                         {resume.languages.map((language, index) => (
-                          <li key={index} className="ml-5 py-2">
+                          <p key={index} className="text-sm">
                             {language}
-                          </li>
+                          </p>
                         ))}
-                      </ul>
                     </div>
                   )}
-
                   {resume.frameworks && (
                     <div className="mt-2 mob:mt-5">
-                      <h2 className="text-md">frameworks</h2>
-                      <ul className="list-disc">
+                      <h2 className="text-md mb-2">frameworks</h2>
                         {resume.frameworks.map((framework, index) => (
-                          <li key={index} className="ml-5 py-2">
+                          <p key={index} className="text-sm">
                             {framework}
-                          </li>
+                          </p>
                         ))}
-                      </ul>
                     </div>
                   )}
-
                   {resume.others && (
                     <div className="mt-2 mob:mt-5">
-                      <h2 className="text-md">others</h2>
-                      <ul className="list-disc">
+                      <h2 className="text-md mb-2">others</h2>
                         {resume.others.map((other, index) => (
-                          <li key={index} className="ml-5 py-2">
+                          <p key={index} className="text-sm">
                             {other}
-                          </li>
+                          </p>
                         ))}
-                      </ul>
                     </div>
                   )}
                 </div>

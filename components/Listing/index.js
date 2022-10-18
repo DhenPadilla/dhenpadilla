@@ -1,7 +1,24 @@
-import Router, { useRouter } from "next/router";
+import { utils } from "ethers";
+import { useRouter } from "next/router";
+import { useEffect, useState } from "react";
+import { useAccount } from "wagmi";
+import { convert } from "../../utils/converter";
 
 const Listing = (props) => {
     const router = useRouter();
+    const { isConnected } = useAccount();
+    const [price, setPrice] = useState();
+
+    const getPrice = async() => {
+        const celoPrice = utils.formatUnits(props.price, 18);
+        const usdPrice = await convert(celoPrice);
+        setPrice(usdPrice);
+    }
+
+    useEffect(() => {
+        getPrice();
+    }, [props.price])
+
 
     return (
         <div>
@@ -14,6 +31,11 @@ const Listing = (props) => {
                     alt={props.name}
                 />
                 <h2 className="mt-2 text-md">{props.name}</h2>
+                { isConnected &&  
+                    <div>
+                        <p className="mt-2 text-sm">{(props.buyer !== null) ? `buyer: ${props.buyer}` : `available`}{(props.buyer === null && price !== null) ? `: $${price}` : ``}</p>
+                    </div>
+                }
             </div>
         </div>
     )

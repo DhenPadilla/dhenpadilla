@@ -1,7 +1,7 @@
 import "../styles/globals.css";
 import "@rainbow-me/rainbowkit/styles.css";
 import { ThemeProvider } from "next-themes";
-import { connectorsForWallets, RainbowKitProvider, lightTheme,  } from "@rainbow-me/rainbowkit";
+import { connectorsForWallets, RainbowKitProvider, lightTheme } from "@rainbow-me/rainbowkit";
 import { injectedWallet,
   rainbowWallet,
   metaMaskWallet,
