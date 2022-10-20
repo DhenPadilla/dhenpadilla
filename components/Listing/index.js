@@ -10,6 +10,7 @@ const Listing = (props) => {
     const [price, setPrice] = useState();
 
     const getPrice = async() => {
+        if (!isConnected) return;
         const celoPrice = utils.formatUnits(props.price, 18);
         const usdPrice = await convert(celoPrice);
         setPrice(usdPrice);

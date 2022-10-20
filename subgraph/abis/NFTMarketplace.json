@@ -124,11 +124,7 @@
         "name": "dheNFTContractAdress",
         "type": "address"
       },
-      {
-        "internalType": "uint256",
-        "name": "dheNFTokenId",
-        "type": "uint256"
-      }
+      { "internalType": "uint256", "name": "dheNFTokenId", "type": "uint256" }
     ],
     "name": "cancelListing",
     "outputs": [],
@@ -142,16 +138,8 @@
         "name": "dheNFTContractAddress",
         "type": "address"
       },
-      {
-        "internalType": "uint256",
-        "name": "dheNFTokenId",
-        "type": "uint256"
-      },
-      {
-        "internalType": "uint256",
-        "name": "price",
-        "type": "uint256"
-      }
+      { "internalType": "uint256", "name": "dheNFTokenId", "type": "uint256" },
+      { "internalType": "uint256", "name": "price", "type": "uint256" }
     ],
     "name": "createListing",
     "outputs": [],
@@ -159,25 +147,11 @@
     "type": "function"
   },
   {
-    "inputs": [
-      {
-        "internalType": "uint256",
-        "name": "",
-        "type": "uint256"
-      }
-    ],
+    "inputs": [{ "internalType": "uint256", "name": "", "type": "uint256" }],
     "name": "listings",
     "outputs": [
-      {
-        "internalType": "uint256",
-        "name": "price",
-        "type": "uint256"
-      },
-      {
-        "internalType": "address",
-        "name": "seller",
-        "type": "address"
-      }
+      { "internalType": "uint256", "name": "price", "type": "uint256" },
+      { "internalType": "address", "name": "seller", "type": "address" }
     ],
     "stateMutability": "view",
     "type": "function"
@@ -189,11 +163,7 @@
         "name": "dheNFTContractAddress",
         "type": "address"
       },
-      {
-        "internalType": "uint256",
-        "name": "dheNFTokenId",
-        "type": "uint256"
-      }
+      { "internalType": "uint256", "name": "dheNFTokenId", "type": "uint256" }
     ],
     "name": "purchaseListing",
     "outputs": [],
@@ -207,16 +177,8 @@
         "name": "dheNFTContractAddress",
         "type": "address"
       },
-      {
-        "internalType": "uint256",
-        "name": "dheNFTokenId",
-        "type": "uint256"
-      },
-      {
-        "internalType": "uint256",
-        "name": "newPrice",
-        "type": "uint256"
-      }
+      { "internalType": "uint256", "name": "dheNFTokenId", "type": "uint256" },
+      { "internalType": "uint256", "name": "newPrice", "type": "uint256" }
     ],
     "name": "updateListing",
     "outputs": [],

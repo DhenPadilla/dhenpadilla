@@ -393,10 +393,10 @@ export const dhenNFTAbi = [
       "stateMutability": "nonpayable",
       "type": "function"
     }
-  ]
+]
 
-export const NFT_CONTRACT_ADDRESS = process.env.ALFAJORES_NFT_ADDRESS
-export const NFT_MARKETPLACE_ADDRESS = process.env.ALFAJORES_NFT_MARKETPLACE_ADDRESS
+export const NFT_CONTRACT_ADDRESS = process.env.MAINNET_NFT_ADDRESS
+export const NFT_MARKETPLACE_ADDRESS = process.env.MAINNET_NFT_MARKETPLACE_ADDRESS
 
 export const SUBGRAPH_URL = "https://api.thegraph.com/subgraphs/name/dhenpadilla/dhenpadilla";
 

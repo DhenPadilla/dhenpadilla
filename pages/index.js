@@ -109,7 +109,7 @@ export default function Home() {
           <h1 className="text-2xl text-bold">about</h1>
           <p className="mt-10 text-md laptop:text-md w-full break-normal">
             full-stack software engineer with 3 years of experience. <br/>
-            currently at provenance and previously at arm. <br/>
+            currently at provenance, previously at arm. <br/>
             driven to create social change and determined to impact the world in a positive way.
           </p>
         </div>

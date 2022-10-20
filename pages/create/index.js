@@ -138,14 +138,12 @@ export const Create = () => {
               potential new token id: {tokenId}
           </h1>
         </div>
-        <div className="mt-10 flex">
-          <input
-            className="m-4 w-full"
-            type="text"
-            placeholder="NFT Address 0x..."
-            value={NFT_CONTRACT_ADDRESS}
-            onChange={(e) => setNftAddress(e.target.value)}
-          />
+        <div className="mt-10">
+          <h1 className="mob:p-2 text-bold text-2xl laptop:text-2xl">
+            contract address: {NFT_CONTRACT_ADDRESS}
+          </h1>
+        </div>
+        <div className="mt-10">
           <input
             className="m-4 w-full"
             type="text"
@@ -159,6 +157,8 @@ export const Create = () => {
               }
             }}
           />
+        </div>
+        <div className="mt-10 ml-4">
           {/* Button to create the listing */}
           <button onClick={handleCreateListing} disabled={loading}>
             {loading ? "Loading..." : "Create"}

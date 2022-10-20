@@ -9,7 +9,7 @@ export const CustomConnect = () => {
         openChainModal,
         openConnectModal,
         authenticationStatus,
-        mounted,
+        mounted
       }) => {
         // Note: If your app doesn't use authentication, you
         // can remove all 'authenticationStatus' checks
@@ -35,7 +35,7 @@ export const CustomConnect = () => {
             {(() => {
               if (!connected) {
                 return (
-                  <button onClick={openConnectModal} type="button">
+                  <button className='hover:opacity-50' onClick={openConnectModal} type="button">
                     connect wallet
                   </button>
                 );

@@ -2,15 +2,15 @@ import fs from "fs";
 import { join } from "path";
 import matter from "gray-matter";
 
-const postsDirectory = join(process.cwd(), "_posts");
+const listingsDirectory = join(process.cwd(), "_listings");
 
-export function getPostSlugs() {
-  return fs.readdirSync(postsDirectory);
+export function getListingIds() {
+  return fs.readdirSync(listingsDirectory);
 }
 
-export function getPostBySlug(slug, fields = []) {
-  const realSlug = slug.replace(/\.md$/, "");
-  const fullPath = join(postsDirectory, `${realSlug}.md`);
+export function getListingByTokenId(tokenId, fields = []) {
+  const realTokenId = tokenId.replace(/\.md$/, "");
+  const fullPath = join(listingsDirectory, `${realTokenId}.md`);
   const fileContents = fs.readFileSync(fullPath, "utf8");
   const { data, content } = matter(fileContents);
 
@@ -18,8 +18,8 @@ export function getPostBySlug(slug, fields = []) {
 
   // Ensure only the minimal needed data is exposed
   fields.forEach((field) => {
-    if (field === "slug") {
-      items[field] = realSlug;
+    if (field === "tokenId") {
+      items[field] = realTokenId;
     }
     if (field === "content") {
       items[field] = content;
@@ -33,11 +33,12 @@ export function getPostBySlug(slug, fields = []) {
   return items;
 }
 
-export function getAllPosts(fields = []) {
-  const slugs = getPostSlugs();
-  const posts = slugs
-    .map((slug) => getPostBySlug(slug, fields))
+export function getAllListings(fields = []) {
+  const tokenIds = getListingIds();
+  const listings = tokenIds
+    .map((tokenId) => getListingByTokenId(tokenId, fields))
     // sort posts by date in descending order
-    .sort((post1, post2) => (post1.title < post2.title ? -1 : 1));
-  return posts;
+    .sort((listing1, listing2) => (listing1.tokenId < listing2.tokenId ? -1 : 1));
+  console.log("listings: ", listings);
+  return listings;
 }

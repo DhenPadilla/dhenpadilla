@@ -40,7 +40,8 @@ const Gallery = () => {
         ...listing, 
         name: tokenId < 10 ? `untitled 0${tokenId}` : `untitled ${tokenId}`
       };
-    });
+    })
+    .sort((listing1, listing2) => (parseInt(listing1.tokenId) < parseInt(listing2.tokenId) ? -1 : 1));
 
     // Update state variables
     setListings(listingEntities);
@@ -82,7 +83,7 @@ const Gallery = () => {
               nft gallery
             </h1>
             <div className="w-full flex justify-between">
-              <p className="p-2 w-1/2">all work is my own, and are minted dhenfts. contracts were built by myself, deployed on celo. { isConnected ? "" : "connect a celo wallet to see which are still available to purchase." }</p>
+              <p className="p-2 w-1/2">all work is my own, and are minted dhenfts. <a className="transition ease-in-out text-gray-300 hover:text-gray-800" href="https://github.com/DhenPadilla/Gallery">contracts were built by myself</a>, <a className="transition ease-in-out text-gray-300 hover:text-gray-800" href="https://explorer.celo.org/mainnet/address/0xac2FA32Ad39F162570E6d749B676143CceF98fd6/transactions">deployed on celo</a>. { isConnected ? "" : "connect a celo wallet to see which are still available to purchase." }</p>
               <div className="float-right">
                 <CustomConnect accountStatus="avatar"/>
               </div>
