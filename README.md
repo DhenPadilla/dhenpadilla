@@ -6,8 +6,9 @@
 > is a dewdrop world
 >
 > and yet, and yet...
->
-> Kobayashi Issa
+
+ 
+                      - Kobayashi Issa
 
 <!--
 **DhenPadilla/dhenpadilla** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
