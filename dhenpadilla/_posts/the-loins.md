@@ -2,22 +2,21 @@
 title: "the loins"
 excerpt: "I see the kaleidoscope of red and blue dancing on my ceiling most nights."
 coverImage: "/assets/blog/dynamic-routing/cover.jpg"
-date: "2023-11-24T05:35:07.322Z"
+date: "2023-11-24T15:35:07.322Z"
 author:
   name: Dhen Padilla
 slug: the-loins
 ---
 
-I used to play this Spiderman game on the PlayStation 2 when I was younger. I was addicted to it. Most of the time, I wouldn't even do any of the missions. I'd just enjoy the freedom of flying in between the concrete giants of New York City and find myself a quiet ledge to sit on and contemplate from. I think I was around 8 years old. I suppose I enjoyed the freedom of the virtual outside since I was mostly indoors.
+I used to play Spiderman on the PlayStation 2 when I was younger. I was addicted to it. Most of the time, I wouldn't even do any of the missions. I'd just enjoy the freedom of flying down broadway, between the concrete soldiers of New York City. I'd find a ledge high enough to be quiet, sit, and watch the sunset in 3x speed.
+I was around 8 years old. I wasn't allowed to go out much, so the virtual freedom felt liberating. I'm 25 now and I still dream of New York in the same way.
 
-I didn't tell you, but I've moved into an art deco apartment in the heart of the Tenderloin*. 1604 is the number of my unit. The Wong Kar Wai film made this whole place feel even less grounded for me. So I hold it with a love that is similarly narcisistic.
+I didn't tell you, but I've moved into an art deco apartment in the heart of the Tenderloin*. 1604 is the number of my unit. The Wong Kar Wai film brings a narcissistic glow to this place.
 
-I call it _The Loins_ now. My new home. I see the kaleidoscope of red and blue dancing on my ceiling most nights. Like the spiderman, I watch the people walk by the road. Along it. On it. Heads, shoulders knees and toes - in that order, over and over again.
+I see the kaleidoscope of red and blue dancing on my ceiling most nights. Like the spiderman, I watch the people walk by the road. Along it. On it. Heads, shoulders knees and toes - in that order, over and over again. I call it _The Loins_ now. My new home. 
 
 I miss my mother. My father too. My sister called this morning, it went to voicemail as I was in the shower. I didn't call back.
-
-I miss my closest friends. Thoughts of an old ex girlfriend would knock on the door occasionally - almost answering but my pride had guarded me, and thankfully so. Instead I chose to dance with a stick of magnolian incense set alight.
-
+I miss my closest friends. Thoughts of an old ex girlfriend would knock on the door occasionally - almost answering but my pride had guarded me, and thankfully so. Instead I danced with a stick of magnolian incense set alight.
 I like the way the smoke pirouettes into its death to the air. Incense feels like a necessity in the loins.
 
 I rent an electric scooter to commute to work. I look and feel silly, but secretly enjoy the rides. I dance on the board with music playing through my apple earphones. It's my aesthetic choice to go for the wired set. It just looks cooler. The bluetooth sets look like you take yourself too seriously and I often lose the case anyway. One fell down the toilet mid-flush and the other I dropped into the drain. So I've since committed to the ones you plug in. Artists wear those ones.

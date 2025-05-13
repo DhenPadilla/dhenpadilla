@@ -26,8 +26,8 @@ export default function Index() {
             </div>
           </div>
           <div className="flex flex-col w-1/2 pt-[200px] gap-16 text-left overflow-y-auto">
-            <div className="flex text-sm leading-relaxed max-w-xl">
-              Dhen is playing with liminality. Based in London, New York and Banaue.
+            <div className="flex text-sm leading-relaxed max-w-xl italic">
+              Dhen is currently playing with liminality. Based in London, New York and Banaue.
             </div>
             <HomeSection title="Writing">
               <ul className="flex flex-col gap-2">
@@ -46,9 +46,8 @@ export default function Index() {
         <footer className="flex flex-row w-full">
           <div className="flex flex-col w-1/2"/>
           <div className="flex flex-col w-1/2 gap-2">
-            <div className="flex text-sm/[1.25em] uppercase">CV</div>
             <Link href="/cv" className="text-sm/[1.25em] italic hover:underline">
-              Download
+              CV
             </Link>
           </div>
         </footer>

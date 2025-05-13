@@ -19,7 +19,7 @@ export default async function Post(props: Params) {
   return (
     <main>
       <Container>
-        <article className="flex flex-row w-full gap-6 py-[200px]">
+        <article className="flex flex-row w-full gap-6">
           <PostHeader
             title={post.title}
             coverImage={post.coverImage}
