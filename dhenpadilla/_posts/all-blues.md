@@ -24,4 +24,6 @@ I see myself in his eyes. Maybe because he's sniffling for me. 'Big boy' indeed.
 
 A fine young woman enters now - beige trenchcoat, black beanie to match her shades. Chiselled face. All the big boys straighten up.
 
+The owner: Yatashi. Another big boy. Clearly proud of his creation. His team, his wife. He moves with an energy that I can only describe as 'paced whimsical'. His haircut matches his wife's, medium, rounded, grey. I wonder who he loves more between her and his records. They've covered these walls.
+
 Condensation on the glass falls through my veins all the way into my toes. There's peace here. Like I've been here before (I haven't). I have been here for a few hours now, and the world continues as I sit here. I suppose this is what rest feels like.
