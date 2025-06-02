@@ -11,5 +11,7 @@ export type Post = {
     url: string;
   };
   content: string;
+  audio: string;
+  audioTitle: string;
   preview?: boolean;
 };

@@ -1,3 +1,4 @@
+import { AudioPlayer } from "@/app/_components/audio-player";
 import Container from "@/app/_components/container";
 import { PostBody } from "@/app/_components/post-body";
 import { PostHeader } from "@/app/_components/post-header";
@@ -19,7 +20,7 @@ export default async function Post(props: Params) {
   return (
     <main>
       <Container>
-        <article className="flex flex-row w-full gap-6">
+        <article className="flex flex-col md:flex-row w-full gap-6">
           <PostHeader
             title={post.title}
             coverImage={post.coverImage}
@@ -28,6 +29,9 @@ export default async function Post(props: Params) {
           />
           <PostBody content={content} />
         </article>
+        {post.audio && (
+          <AudioPlayer src={post.audio} title={post.title} audioTitle={post.audioTitle} />
+        )}
       </Container>
     </main>
   );
