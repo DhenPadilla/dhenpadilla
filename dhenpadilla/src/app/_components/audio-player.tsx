@@ -48,7 +48,7 @@ export function AudioPlayer({ src, title, audioTitle }: Props) {
 
   return (
     <div className="fixed bottom-0 left-0 right-0 h-2 flex flex-col w-full items-center justify-end">
-      <div className="flex flex-row w-full justify-start items-center m-3">
+      <div className="flex flex-row w-full justify-start items-center p-3 max-md:bg-gradient-to-t max-md:from-white max-md:via-white/80 max-md:via-80% max-md:to-transparent">
         <button 
           onClick={togglePlay}
           className={`w-4 h-4 flex items-center justify-center p-[1px] ml-3 rounded-full border-2  ${isPlaying ? 'border-gray-500' : 'border-gray-300'}`}

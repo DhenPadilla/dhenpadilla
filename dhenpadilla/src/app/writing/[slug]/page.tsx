@@ -20,7 +20,7 @@ export default async function Post(props: Params) {
   return (
     <main>
       <Container>
-        <article className="flex flex-row w-full gap-6">
+        <article className="flex flex-col md:flex-row w-full gap-6">
           <PostHeader
             title={post.title}
             coverImage={post.coverImage}
