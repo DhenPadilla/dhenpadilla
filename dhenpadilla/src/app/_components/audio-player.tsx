@@ -16,6 +16,7 @@ export function AudioPlayer({ src, title, audioTitle }: Props) {
   useEffect(() => {
     if (audioRef.current) {
       audioRef.current.volume = 0.5;
+      audioRef.current.loop = true;
       
       const audio = audioRef.current;
       
@@ -27,6 +28,15 @@ export function AudioPlayer({ src, title, audioTitle }: Props) {
       audio.addEventListener('timeupdate', updateProgress);
       audio.addEventListener('play', () => setIsPlaying(true));
       audio.addEventListener('pause', () => setIsPlaying(false));
+
+      // Try to play on mount, but don't worry if it fails (mobile browsers will block)
+      const playPromise = audio.play();
+      if (playPromise !== undefined) {
+        playPromise.catch(() => {
+          // Auto-play was prevented, this is expected on mobile
+          setIsPlaying(false);
+        });
+      }
 
       return () => {
         audio.removeEventListener('timeupdate', updateProgress);
@@ -70,8 +80,7 @@ export function AudioPlayer({ src, title, audioTitle }: Props) {
         ref={audioRef}
         className="hidden"
         title={title}
-        autoPlay={true}
-        loop={true}
+        preload="metadata"
       >
         <source src={src} type="audio/mpeg" />
         Your browser does not support the audio element.
