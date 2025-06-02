@@ -5,9 +5,9 @@ export default async function CV() {
 
   return (
     <main>
-      <div className="flex flex-col max-h-[100vh] gap-4 max-w-3xl px-[80px] w-[100vw] max-w-[100vw] m-auto h-[100vh]">
-        <article className="flex flex-row w-full gap-10">
-            <div className="flex flex-col sticky h-[100vh] py-[40px] w-[24%]">
+      <div className="flex flex-col max-h-[100vh] gap-4 max-w-3xl px-6 md:px-[80px] w-[100vw] max-w-[100vw] m-auto h-[100vh]">
+        <article className="flex flex-col md:flex-row w-full gap-10">
+            <div className="flex flex-row md:flex-col sticky md:h-[100vh] py-[40px] md:w-[24%] w-full">
                 <div className="text-md font-light italic">
                     Dhen Padilla (b. 1998) is a software engineer and artist based in London, New York and Banaue.
                     His engineering practice is concerned with building interfaces that solve social issues and also a volunteer contributor to <Link href="https://silk.cx" className="underline">Silk</Link>.
@@ -15,7 +15,7 @@ export default async function CV() {
                     Whilst his artistic work is grounded in transitivity, and is focused on the morality and liminality in humanity.
                 </div>
             </div>
-            <div className="flex flex-col w-1/2 pt-[60px] gap-16 text-left overflow-y-auto">
+            <div className="flex flex-col w-full md:w-1/2 md:pt-[60px] gap-16 text-left overflow-y-auto">
                 <HomeSection title="Technical">
                     <ul className="flex flex-col gap-2">
                         <li className="flex flex-row w-full justify-between">
