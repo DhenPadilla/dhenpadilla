@@ -6,7 +6,7 @@ date: "2025-06-30T13:35:00.000Z"
 author:
   name: Dhen Padilla
 slug: all-blues
-audio: "/assets/audio/bigboy.m4a"
+audio: "/assets/audio/bigboy.mp3"
 audioTitle: "bigboy.m4a (recorded 2025-06-29T14:38:23.420Z+09:00)"
 ---
 

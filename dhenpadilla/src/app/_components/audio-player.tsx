@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useRef, useState } from 'react';
+import { useCallback, useEffect, useRef, useState } from 'react';
 
 type Props = {
   src: string;
@@ -12,6 +12,7 @@ export function AudioPlayer({ src, title, audioTitle }: Props) {
   const audioRef = useRef<HTMLAudioElement>(null);
   const [isPlaying, setIsPlaying] = useState(false);
   const [progress, setProgress] = useState(0);
+  const [hasInteracted, setHasInteracted] = useState(false);
 
   useEffect(() => {
     if (audioRef.current) {
@@ -21,47 +22,75 @@ export function AudioPlayer({ src, title, audioTitle }: Props) {
       const audio = audioRef.current;
       
       const updateProgress = () => {
-        const currentProgress = (audio.currentTime / audio.duration) * 100;
-        setProgress(currentProgress);
+        if (audio.duration) {
+          const currentProgress = (audio.currentTime / audio.duration) * 100;
+          setProgress(currentProgress);
+        }
       };
 
-      audio.addEventListener('timeupdate', updateProgress);
-      audio.addEventListener('play', () => setIsPlaying(true));
-      audio.addEventListener('pause', () => setIsPlaying(false));
+      const handlePlay = () => setIsPlaying(true);
+      const handlePause = () => setIsPlaying(false);
+      const handleEnded = () => setIsPlaying(false);
 
-      // Try to play on mount, but don't worry if it fails (mobile browsers will block)
-      const playPromise = audio.play();
-      if (playPromise !== undefined) {
-        playPromise.catch(() => {
-          // Auto-play was prevented, this is expected on mobile
-          setIsPlaying(false);
-        });
-      }
+      audio.addEventListener('timeupdate', updateProgress);
+      audio.addEventListener('play', handlePlay);
+      audio.addEventListener('pause', handlePause);
+      audio.addEventListener('ended', handleEnded);
 
       return () => {
         audio.removeEventListener('timeupdate', updateProgress);
-        audio.removeEventListener('play', () => setIsPlaying(true));
-        audio.removeEventListener('pause', () => setIsPlaying(false));
+        audio.removeEventListener('play', handlePlay);
+        audio.removeEventListener('pause', handlePause);
+        audio.removeEventListener('ended', handleEnded);
       };
     }
   }, []);
 
-  const togglePlay = () => {
+  const togglePlay = useCallback(async () => {
     if (audioRef.current) {
-      if (isPlaying) {
-        audioRef.current.pause();
-      } else {
-        audioRef.current.play();
+      // Mark that user has interacted
+      if (!hasInteracted) {
+        setHasInteracted(true);
+      }
+
+      try {
+        if (isPlaying) {
+          audioRef.current.pause();
+        } else {
+          // For mobile compatibility, ensure audio context is resumed
+          const playPromise = audioRef.current.play();
+          if (playPromise !== undefined) {
+            await playPromise;
+          }
+        }
+      } catch (error) {
+        console.warn('Audio play failed:', error);
+        setIsPlaying(false);
       }
     }
-  };
+  }, [isPlaying, hasInteracted]);
+
+  // Handle initial user interaction for mobile
+  const handleInitialPlay = useCallback(async () => {
+    if (!hasInteracted && audioRef.current) {
+      setHasInteracted(true);
+      try {
+        const playPromise = audioRef.current.play();
+        if (playPromise !== undefined) {
+          await playPromise;
+        }
+      } catch (error) {
+        console.warn('Initial audio play failed:', error);
+      }
+    }
+  }, [hasInteracted]);
 
   return (
     <div className="fixed bottom-0 left-0 right-0 h-2 flex flex-col w-full items-center justify-end">
       <div className="flex flex-row w-full justify-start items-center p-3 max-md:bg-gradient-to-t max-md:from-white max-md:via-white/80 max-md:via-80% max-md:to-transparent">
         <button 
-          onClick={togglePlay}
-          className={`w-4 h-4 flex items-center justify-center p-[1px] ml-3 rounded-full border-2  ${isPlaying ? 'border-gray-500' : 'border-gray-300'}`}
+          onClick={hasInteracted ? togglePlay : handleInitialPlay}
+          className={`w-4 h-4 flex items-center justify-center p-[1px] ml-3 rounded-full border-2 ${isPlaying ? 'border-gray-500' : 'border-gray-300'}`}
           aria-label={isPlaying ? 'Pause' : 'Play'}
         >
           <div className={`w-full h-full rounded-full bg-gray-400`} />
@@ -80,11 +109,12 @@ export function AudioPlayer({ src, title, audioTitle }: Props) {
         ref={audioRef}
         className="hidden"
         title={title}
-        preload="metadata"
+        preload="auto"
+        loop={true}
       >
         <source src={src} type="audio/mpeg" />
         Your browser does not support the audio element.
       </audio>
     </div>
   );
-} 
+}
