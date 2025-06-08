@@ -8,38 +8,44 @@ author:
 slug: 7-min-walk
 ---
 
-Running once again. Not away, but towards. I've ended up by the sea. In attempts to find a dead end, and nowhere else to look but inside. A dear old man sits next to me. Silent. Our trousers don't match. Highlighted where the baggy folds of our garments meet. Blue on Green. 
-Enough space for 8, but we sit together. 
-Representing the unspoken formality of the world, he places his hands on his knees as he waits for the train. There's a playful tension between us whilst we feel the waves crawl up the pier and crash against the concrete waiting for the next train. 
-This station is by the sea. A small station, 2-carriages long. A single track runs close to the edge of the earth and the train is never late. Paper tickets of course.
+I'm running again. Not away, but towards. I find myself at a train station by the sea. Forces me to a dead end. No other place to go but visit my mind. An old japanese man as my only companion. We sit side by side. I notice our trousers don't match. Little space between us and the baggy folds of our garments want to hold hands; Blue on Green. 
+Enough space for 8 people on this bench, but we've decided to share the world together right now.
+He places his hands on his knees, less than shoulder width apart, as he waits for the train. I hear the waves crawl up the pier and crash against the rocks waiting for the next train.
+This station is merely a platform paved in concrete bordered in dark wood. The cracks in the concrete invites through small weeds to join the passengers waiting. Small and roofless and about 2.4-carriages long. A single track laid a few feet away from us, and runs close to the edge of the earth. The train is never late. Paper tickets of course.
 
-I see this silence in between the sea and our bench as both safety and no-mans land. If either of us walk into it, various lives unfold. 
+I see this silence in between the sea and our bench as both grace, and no-mans land. The wind caresses the mans eyesbrows but he remains slightly slouched and unmoving.
 
-This thought wanders into my past: Tirelessly building product on product, out of sheer will. Dreaming of more, whatever that means. Hosting sponsored events in New York city. The feeling at the U.S. border each time I land at JFK. The search for optimal. Performance and resilience. The loins. Anecdotes advertising multiple angles of life and _how to be_, that evolve into whole dimensions of pressure. Trying to find peace in the pauses.
-I wonder if this finely aged japanese man, with glasses glistening like the sea in front of him, feels this pressure too.
+My thoughts wander into my past. The past 3 years. Trying to build a product into a company out of sheer will. Risking parts of life for the reward of 'more', whatever that means. Hosting sponsored events in New York city.
+Fucking New York City!
+Attempting to soothe my anxiousness waiting in line at the U.S. border each time I land at JFK. 
+Striving to perform and learn all in resilience. San Francisco. The loins. Anecdotes at silly social events that tell me 'I make things and get money'. Angles of life and _how to be_, that evolve into whole dimensions of pressure. Looking for peace in the pauses.
+I wonder if this finely aged neighbor beside me, with his glasses glistening like the sea in front of him, feels this pressure too.
 He's probably just waiting for the train.
 
 ---
 
-This tango with my reality as the hyper productive founding engineer, fighting for more of everything. More revenue, more knowledge, more growth. 
+I've danced this tango of my reality for 3 years. The hyper productive founding engineer. The fight for bettering the world. Fighting for more of everything. More revenue, more knowledge, more growth, more impact. But feeling like the true target lies beyond it.
 
-The _dewdrop_^1^ falls. Life through the lens of that dewdrop has become clearer. Driving me back to the soil and the sea. The quiet lullabies of the world have crystallized themselves as true facets of my being, and it doesn't feel like a _'North Star'_. It is mere energy. 
-The dissonance of mechanical precision towards greatness and these perfectly messy tinctures of life have found an overtone that I wish to play for all hearts because it feels so earthly. Timely, really. Like there's a space in the soul of this lifetime that yearns for liberty. 
+But the _dewdrop_^1^ falls. Life through the lens of that dewdrop has become clearer. Driving me back to the soil and the sea. 
+The dissonance of mechanical precision towards greatness and these perfectly messy tinctures of life have found an overtone that I make it my life now, to play it well. It feels so rooted. Timely, even. Like there's a space in the soul of this time that yearns freedom.
 
-In the same way, I yearn now for tools that free us, rather than aim us. Tools that breathe into our soul. Where the aim isn't to be more productive, but to just be.
+So I yearn alongside it. I yearn now for tools that free us, rather than aim us. Tools that breathe. That breathe into our soul.
 
-As my dewdrop lens shows me, life mutates in arbitrary and harmonic ways and we love the control of its narrative. So wildly focused on scale, dominion, insurgence, achievement. But it's the fact we get to be witness to this irrepressable metamorphosis that fires colors into our lives.
-Hearing "How I got to $X million ARR in Y days" feels like a far cry to peace. While watching a man's leathered fingers rise and fall - as he taps his heel against the concrete - plays an isochronic tone^2^ in my life. 
+As my dewdrop lens shows me, life mutates in arbitrary and harmonic ways and we often wish to control its narrative. So wildly focused on scale, dominion, insurgence, achievement. But it feels to me that it is in bearing witness to this irrepressable metamorphosis that fires colors into our lives. That drives us to become.
+Hearing "How I got to $X million ARR in Y days" feels like a far cry to peace. While watching a man's leathered fingers rise and fall, tapping his heel against the concrete, echoes an isochronic tone^2^ to life.
 
 
-I reflect on the past 3 years. On moments that felt catalytic to my life. Purest connection and re-connection with the world. 
+I reflect on these years. On moments that felt catalytic to my becoming. In moments of purest connection and re-connection with the world. 
 Challenge, laughter, confusion, alignment. All grounded in: "I see you for who you are right now, and _I am with you_".
 
 I recall the numina from our first ever payment from a customer at Streamline. We were so young then.
-It wasn't from seeing the first $100 land in our Stripe account that cemented a new memory in my lifetime.
-We drove 2 hours to Stinson Beach in celebration, but stopped and b-lined towards a river, to breathe the spring air of our new accomplishment together. Doug and I throwing ourselves into the stream whilst Helena rests on the overpass, marinating her gorgeous energy in California solstice. I realized then that the moments I aim for were those that reunite me with time again.
+I saw the first $100 land in our Stripe account and we decided to drive 2 hours to Stinson Beach in celebration. We parked the car and b-lined towards a river, to breathe the spring air of our new accomplishment together. Doug and I throwing ourselves into the stream whilst Helena rests on the overpass, marinating her energy in the California solstice. I realized then that the moments which fuel my world weren not from seeing some arbitrary monetary figure. It was my reunion with time again. My reunion with meaning and reason for the things that happen to us.
 
-I want to journey with people again. Not in being. But in becoming. The purpose is to craft experiences that whisper to your soul than shout at an ego. To help you slow it all down. Not in aim of anything 'more', but to level you again with what is already yours; this dewdrop world. That reconciles you to the person that waits for the same train next to you, through the no-man's land of the world, because you'll both have to leave the station soon enough.
+I've been thinking a lot about what this looks like moving forward for me. How do I 'be' now?. To drive a new company? To park the car and take a walk? To be a passenger or the navigator? To work again on product? More impact maybe? More money would also be nice of course.
+
+But I see my purpose clearer whilst I look out at this sea. And it's not in being. But in becoming. To do things that bring you back to who you're becoming. I want to craft experiences that whisper to our souls. That help it all slow down, brief enough to feel _everything_. The way my socks warm my toes. The slowing dryness of my lips against the wind. It's all there. 
+Not in aim of anything 'more', but to level you again with what is already yours; this dewdrop world.
+I wish to add things to this world that makes this silence so much safer. Reconciling you with the air and with the person that waits for the same train next to you, because you'll both have to leave this station soon enough, so you may as well share the bench together for a second.
 
 ---
 
