@@ -24,7 +24,7 @@ export default function Index() {
           </div>
           <div className="flex flex-col w-1/2 pt-[200px] gap-16 text-left overflow-y-auto">
             <div className="flex text-sm leading-relaxed max-w-xl italic">
-              Dhen is currently playing with liminality. Based in London, New York and Banaue.
+              Dhen is currently playing with liminality. Based in London, New York and Batawad.
             </div>
             <HomeSection title="Writing">
               <ul className="flex flex-col gap-2">

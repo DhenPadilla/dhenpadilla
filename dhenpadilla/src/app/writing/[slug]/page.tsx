@@ -39,6 +39,8 @@ export default async function Post(props: Params) {
           </Link>, or <CopyLinkButton>
             send it to someone
           </CopyLinkButton>
+          <br />
+          See <Link href="https://dhenpadilla.com/" className="underline text-gray-500 hover:text-gray-700">other entries</Link>
         </div>
         {post.audio && (
           <AudioPlayer src={post.audio} title={post.title} audioTitle={post.audioTitle} />
