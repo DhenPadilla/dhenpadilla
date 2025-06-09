@@ -20,7 +20,7 @@ He places his hands on his knees, shoulder-width apart, as he waits for the trai
 This station is merely a platform: concrete paved, bordered in dark wood. The cracks invite weeds to join us, small passengers in their own right. The rain joins us lightly. There is no roof. The track is a single line, laid just a few feet away — close to the edge of the earth. The train is never late.  
 Paper tickets, of course.
 
-I see the silence between the sea and our bench as both grace and no-man’s land. The wind caresses the man’s eyebrows, but he remains slightly slouched, unmoving. While my thoughts wander into the past. Three years of trying to build a product into a company out of sheer will. Risking parts of life in pursuit of *more* — whatever that means.  
+I see the silence between the sea and our bench as both grace and no-man’s land. The wind caresses the man’s eyebrows, but he remains slightly slouched, unmoving. Meanwhile, my thoughts wander into the past. Three years of trying to build a product into a company out of sheer will. Risking parts of life in pursuit of *more* — whatever that means.  
 
 Hosting sponsored events in New York City.  
 *Fucking New York City.*  
