@@ -9,7 +9,7 @@ export default async function CV() {
         <article className="flex flex-col md:flex-row w-full gap-10">
             <div className="flex flex-row md:flex-col sticky md:h-[100vh] py-[40px] md:w-[24%] w-full">
                 <div className="text-md font-light italic">
-                    Dhen Padilla (b. 1998) is a software engineer and artist based in London, New York and Banaue.
+                    Dhen Padilla (b. 1998) is a software engineer and artist based in London and New York.
                     His engineering practice is concerned with building interfaces that solve social issues and also a volunteer contributor to <Link href="https://silk.cx" className="underline">Silk</Link>.
                     <br />
                     Whilst his artistic work is grounded in transitivity, and is focused on the morality and liminality in humanity.
