@@ -14,7 +14,7 @@ slice softly, the sky and the
 sea. sand dunes
 carry water.
 
-slide your way.
+swim your way.
 bleed up. in
 to me. the air.
 
@@ -23,7 +23,7 @@ Vincent.
 
 sister golden hair
 lies with Morpheus.
-guardian of the night shifts.
+you guard the night shifts.
 
 lace my ankles with warm ice
 in sequence. in flow
