@@ -12,18 +12,18 @@ audioTitle: "first moonrise.m4a (recorded 2025-07-13T00:02:45.080Z+02:00)"
 
 slice softly, the sky and the
 sea. sand dunes
-carry the water.
+carry water.
 
 slide your way.
 bleed up. in
-to me. the air
+to me. the air.
 
 they have companion now,
-vincent.
+Vincent.
 
 sister golden hair
-lies with morpheus.
-you guard the night shifts.
+lies with Morpheus.
+guardian of the night shifts.
 
 lace my ankles with warm ice
 in sequence. in flow
