@@ -6,7 +6,7 @@ date: "2025-08-14T13:35:00.000Z"
 author:
   name: Dhen Padilla
 slug: moonrise
-audio: "/assets/audio/sea.mp3"
+audio: "/assets/audio/moonrise.mp3"
 audioTitle: "first moonrise.m4a (recorded 2025-07-13T00:02:45.080Z+02:00)"
 ---
 
