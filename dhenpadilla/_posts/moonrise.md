@@ -23,7 +23,7 @@ Vincent.
 
 sister golden hair
 lies with Morpheus.
-you guard of the night shifts.
+you guard the night shifts.
 
 lace my ankles with warm ice
 in sequence. in flow
