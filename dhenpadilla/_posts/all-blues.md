@@ -7,7 +7,7 @@ author:
   name: Dhen Padilla
 slug: all-blues
 audio: "/assets/audio/bigboy.mp3"
-audioTitle: "bigboy.m4a (recorded 2025-06-29T14:38:23.420Z+09:00)"
+audioTitle: "bigboy.m4a (recorded 2025-05-29T14:38:23.420Z+09:00)"
 ---
 
 The screech of the sax harmonized with the kettle. The glasses are tinkling slightly as accompaniment. I am struggling to think. Or rather, I'm struggling to hold on to a single thread of thought. Finding comfort in the sound. How loud they're playing in this cafe. 
