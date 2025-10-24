@@ -8,19 +8,26 @@ export default async function CV() {
       <div className="flex flex-col max-h-[100vh] gap-4 max-w-3xl px-6 md:px-[80px] w-[100vw] max-w-[100vw] m-auto h-[100vh]">
         <article className="flex flex-col md:flex-row w-full gap-10">
             <div className="flex flex-row md:flex-col sticky md:h-[100vh] py-[56px] md:w-[24%] w-full">
-                <div className="text-md font-light italic">
-                    Dhen Padilla (b. 1998) is a software engineer and artist based in London and New York.
+                <div className="text-[10pt] font-light italic">
+                    Dhen Padilla (b. 1998) is a software engineer and artist based in Tokyo and New York.
                     <br/>
-                    His engineering practice is concerned with social issues, and reinvention. He is also a volunteer contributor to multiple open source projects and the creative platform, <Link href="https://silk.cx" className="underline">Silk</Link>.
+                    His engineering practice is concerned with social issues, and reinvention.
                     <br />
                     Whilst his artistic work is grounded in transitivity, and is focused on the morality and liminality in humanity.
+                    <br />
+                    <br />
+                    He is also a volunteer contributor to multiple open source projects and the creative platform, <Link href="https://silk.cx" className="underline">Silk</Link>.
                 </div>
             </div>
             <div className="flex flex-col w-full md:w-1/2 md:ml-[70px] md:pt-[60px] gap-16 text-left overflow-y-auto">
                 <HomeSection title="Technical">
                     <ul className="flex flex-col gap-2">
                         <li className="flex flex-row w-full justify-between">
-                            <span className="text-sm/[1.25em]">2023-Present</span>
+                            <span className="text-sm/[1.25em]">2025-Present</span>
+                            <span className="ml-2 text-sm/[1.25em] italic">CTO, Streamline, New York, NY</span>
+                        </li>
+                        <li className="flex flex-row w-full justify-between">
+                            <span className="text-sm/[1.25em]">2023-2025</span>
                             <span className="ml-2 text-sm/[1.25em] italic">Founding Engineer, Streamline, San Francisco, CA</span>
                         </li>
                         <li className="flex flex-row w-full justify-between">
