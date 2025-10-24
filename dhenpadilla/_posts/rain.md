@@ -48,7 +48,7 @@ I want a hug.
 
 
 I've been smoking again. My dear Malboro ice blast 8s. 
-Like exhaling melancholy for you to see. I can't explaint it, but it's kinda like humming.
+Like exhaling melancholy for you to see. I can't explain it, but it's kinda like humming.
 I should do without this silly addction. I hope it be short-lived and more temporary than I am.
 
 ---
