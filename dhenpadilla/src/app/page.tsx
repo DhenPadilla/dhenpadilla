@@ -22,7 +22,7 @@ export default function Index() {
               </div>
 
               <div className="mt-4 md:hidden text-sm leading-relaxed max-w-xl italic">
-                Dhen is playing with liminality. Based in London and Tokyo. Currently in Tokyo.
+                Dhen is playing with liminality. Based in Brooklyn and Tokyo. Currently in Brooklyn.
               </div>
             </div>
           </div>
