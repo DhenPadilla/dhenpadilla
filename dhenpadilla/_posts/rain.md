@@ -49,11 +49,11 @@ I want a hug.
 
 I've been smoking again. My dear Malboro ice blast 8s. 
 Like exhaling melancholy for you to see. I can't explain it, but it's kinda like humming.
-I should do without this silly addction. I hope it be short-lived and more temporary than I am.
+I should do without this silly addiction. I hope it be short-lived and more temporary than I am.
 
 ---
 
-I pray to be ankle deep in the earth again. To root into ground I assimilate with again. I hope for it to be ubiquitious. To blossom through me. Pruning my thorns. 
+I pray to be ankle deep in the earth again. To root into ground I assimilate with again. I hope for it to be ubiquitious. To blossom through me. Prune my thorns. 
 I pray I see it again soon. 
 
 
@@ -65,6 +65,6 @@ _New_ lasts 6 seconds. The days feel ripe, but little feels fresh.
 ---
 
 
-I haven't read something in in a while. 
+I haven't read something crucial in a while. 
 Sometimes I fail to read my own mind.
 
