@@ -1,11 +1,11 @@
-import { CMS_NAME, HOME_OG_IMAGE_URL } from "@/lib/constants";
+import { HOME_OG_IMAGE_URL } from "@/lib/constants";
 import type { Metadata } from "next";
 
 import "./globals.css";
 
 export const metadata: Metadata = {
   title: `Dhen Padilla`,
-  description: `A multidisciplinary based in New York, London and Manila.`,
+  description: `A multidisciplinary based in New York and Tokyo.`,
   openGraph: {
     images: [HOME_OG_IMAGE_URL],
   },
