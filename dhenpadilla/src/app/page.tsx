@@ -22,14 +22,14 @@ export default function Index() {
               </div>
 
               <div className="mt-4 md:hidden text-sm leading-relaxed max-w-xl italic">
-                Dhen is playing with liminality. Based in New York and Tokyo. Currently in Brooklyn, NY.
+                Dhen is figuring it out. Based in London, New York and Tokyo. Currently in Tokyo.
               </div>
             </div>
           </div>
           <div className="flex flex-col w-full pt-[70px] md:w-1/2 md:pt-[200px] gap-16 text-left overflow-y-auto">
             <div className="hidden md:flex text-sm leading-relaxed max-w-xl italic">
-              Dhen is playing with liminality. Based in New York and Tokyo. <br/>
-              Currently in Brooklyn, NY.
+              Dhen is figuring it out. Based in London, New York and Tokyo. <br/>
+              Currently in Tokyo.
             </div>
             <HomeSection title="Writing">
               <ul className="flex flex-col gap-2">
