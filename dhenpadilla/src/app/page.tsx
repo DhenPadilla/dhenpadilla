@@ -14,7 +14,7 @@ export default function Index() {
             <div className="h-auto w-auto">
               <div className="flex flex-col">
                 <div className="text-[13pt]/[2em]">Dhen Padilla</div>
-                <div className="text-sm/[1.25em] italic">b. 7.7.1998</div>
+                <div className="text-sm/[1.25em] italic">b. 1998</div>
               </div>
 
               <div className="mt-4 md:mt-16 text-sm/[1.25em]">
