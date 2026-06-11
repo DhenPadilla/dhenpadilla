@@ -7,6 +7,5 @@
 >
 > and yet, and yet...
 
- &ndash;  Kobayashi Issa
 
 
