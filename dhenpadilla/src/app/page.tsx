@@ -3,6 +3,8 @@ import { HomeSection } from "@/app/_components/Section";
 import { getAllPosts } from "@/lib/api";
 import Link from "next/link";
 
+const LOCATION = process.env.NEXT_PUBLIC_LOCATION;
+
 export default function Index() {
   const allPosts = getAllPosts();
 
@@ -22,14 +24,14 @@ export default function Index() {
               </div>
 
               <div className="mt-4 md:hidden text-sm leading-relaxed max-w-xl italic">
-                Dhen is figuring it out. Based in New York and Tokyo. Currently in Brooklyn, NY.
+                Dhen is figuring it out. Based in New York and Tokyo. Currently in {LOCATION}. 
               </div>
             </div>
           </div>
           <div className="flex flex-col w-full pt-[70px] md:w-1/2 md:pt-[200px] gap-16 text-left overflow-y-auto">
             <div className="hidden md:flex text-sm leading-relaxed max-w-xl italic">
               Dhen is figuring it out. Based in New York and Tokyo. <br/>
-              Currently in Brooklyn, NY.
+              Currently in {LOCATION}.
             </div>
             <HomeSection title="Writing">
               <ul className="flex flex-col gap-2">
