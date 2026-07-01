@@ -33,6 +33,9 @@ export default function Index() {
               Dhen is figuring it out. Based in New York and Tokyo. <br/>
               Currently in {LOCATION}.
             </div>
+            <Link href="/now" className="text-sm/[1.25em] italic hover:underline">
+              now
+            </Link>
             <HomeSection title="Writing">
               <ul className="flex flex-col gap-2">
                 {allPosts.map((post) => (
@@ -52,10 +55,7 @@ export default function Index() {
           <div className="flex flex-col w-full items-end md:items-start md:w-1/2 gap-2">
             <Link href="/cv" className="text-sm/[1.25em] italic hover:underline">
               CV
-            </Link>
-            <Link href="/now" className="text-sm/[1.25em] italic hover:underline">
-              now
-            </Link>
+            </Link> 
           </div>
         </footer>
       </Container>
