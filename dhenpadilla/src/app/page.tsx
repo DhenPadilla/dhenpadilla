@@ -53,6 +53,9 @@ export default function Index() {
             <Link href="/cv" className="text-sm/[1.25em] italic hover:underline">
               CV
             </Link>
+            <Link href="/now" className="text-sm/[1.25em] italic hover:underline">
+              now
+            </Link>
           </div>
         </footer>
       </Container>

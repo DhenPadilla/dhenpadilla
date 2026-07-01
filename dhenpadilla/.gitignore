@@ -30,7 +30,11 @@ yarn-debug.log*
 yarn-error.log*
 
 # local env files
+.env
 .env*.local
+
+# media ingestion (local originals — never commit binaries)
+/media-inbox
 
 # vercel
 .vercel
