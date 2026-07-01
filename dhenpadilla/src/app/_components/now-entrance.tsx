@@ -3,14 +3,10 @@
 import { useEffect, useState } from "react";
 import markdownStyles from "./markdown-styles.module.css";
 
-// The /now entrance: an intro passage that fades out — via a dated button —
-// to reveal the page's content. The button is the only way in; the same date
-// then settles into the corner as the "now" marker.
 export function NowEntrance({ stamp, children }: { stamp: string; children: React.ReactNode }) {
   const [entered, setEntered] = useState(false);
   const [introGone, setIntroGone] = useState(false);
 
-  // Hold the page still while the entrance is up.
   useEffect(() => {
     if (introGone) return;
     const prev = document.body.style.overflow;
@@ -27,7 +23,6 @@ export function NowEntrance({ stamp, children }: { stamp: string; children: Reac
 
   return (
     <>
-      {/* Revealed content */}
       <div
         aria-hidden={!entered}
         className={`${markdownStyles["markdown"]} pt-16 md:pt-[100px] transition-opacity duration-700 delay-200 ${
@@ -37,7 +32,6 @@ export function NowEntrance({ stamp, children }: { stamp: string; children: Reac
         {children}
       </div>
 
-      {/* Entrance passage — fades out to reveal the content */}
       {!introGone && (
         <div
           className={`fixed inset-0 z-20 flex flex-col justify-center overflow-y-auto px-16 md:px-[20vw] py-16 transition-opacity duration-500 ${
@@ -46,14 +40,10 @@ export function NowEntrance({ stamp, children }: { stamp: string; children: Reac
         >
           <div className="text-sm leading-relaxed italic max-w-xl">
             <p>
-              A place to let a thought exist and expire is rare now. To let a moment ring until the next tone replaces it is muddled by persistence, portfolios and collations of 'who I am'.
-              <br/>
-              'Who am I' lives only until you let it. Answers to that - if any - even more ephemeral. 
-            </p>
-            <p className="mt-4">
-This is a study of only the state, not the stream. <br/>
-Each moment only replaced when the next is one chooses to.
-What you see here will not live longer than when the next. There is no archive to this. There is just what you will see.
+            A thing is seen, and loved for the length of its seeing. Then the hour turns and takes it &mdash; I am not consulted; neither are you.
+            <br/>
+            What remains is the shadow, never the thing.<br/>
+            The current state of me. See it now; already I am elsewhere.
             </p>
           </div>
           <button

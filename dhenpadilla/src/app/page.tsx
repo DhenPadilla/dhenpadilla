@@ -33,9 +33,11 @@ export default function Index() {
               Dhen is figuring it out. Based in New York and Tokyo. <br/>
               Currently in {LOCATION}.
             </div>
-            <Link href="/now" className="text-sm/[1.25em] italic hover:underline">
-              now
-            </Link>
+            <HomeSection title="Work">
+              <Link href="/now" className="text-sm/[1.25em] italic hover:underline">
+                now
+              </Link>
+            </HomeSection>
             <HomeSection title="Writing">
               <ul className="flex flex-col gap-2">
                 {allPosts.map((post) => (
