@@ -1,6 +1,7 @@
 import Container from "@/app/_components/container";
 import { HomeSection } from "@/app/_components/Section";
 import { getAllPosts } from "@/lib/api";
+import { POSTED_STAMP } from "@/app/now/posted";
 import Link from "next/link";
 
 const LOCATION = process.env.NEXT_PUBLIC_LOCATION;
@@ -34,9 +35,12 @@ export default function Index() {
               Currently in {LOCATION}.
             </div>
             <HomeSection title="Work">
+            <div className="flex flex-row items-baseline gap-2">
               <Link href="/now" className="text-sm/[1.25em] italic hover:underline">
                 now
               </Link>
+              <span className="text-xs italic text-gray-500">{POSTED_STAMP}</span>
+            </div>
             </HomeSection>
             <HomeSection title="Writing">
               <ul className="flex flex-col gap-2">
@@ -57,7 +61,7 @@ export default function Index() {
           <div className="flex flex-col w-full items-end md:items-start md:w-1/2 gap-2">
             <Link href="/cv" className="text-sm/[1.25em] italic hover:underline">
               CV
-            </Link> 
+            </Link>
           </div>
         </footer>
       </Container>
