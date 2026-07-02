@@ -1,7 +1,7 @@
 // The date the current /now content was posted. Bump this whenever you
 // rewrite page.mdx — there is no archive, so this is just the timestamp on
 // "what you see". Format: YYYY-MM-DD.
-export const POSTED = "2026-06-29";
+export const POSTED = "2026-07-01";
 
 // Display stamp shared by /now (entrance + corner) and the homepage nav.
 // UTC so the day never shifts by timezone. Format: DD.MM.YYYY.
