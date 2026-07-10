@@ -29,7 +29,7 @@ export default function Index() {
               </div>
             </div>
           </div>
-          <div className="flex flex-col w-full pt-[70px] md:w-1/2 md:pt-[200px] gap-16 text-left overflow-y-auto">
+          <div className="flex flex-col w-full pt-[70px] md:w-1/2 md:pt-[200px] gap-16 text-left">
             <div className="hidden md:flex text-sm leading-relaxed max-w-xl italic">
               Dhen is figuring it out. Based in New York and Tokyo. <br/>
               Currently in {LOCATION}.
