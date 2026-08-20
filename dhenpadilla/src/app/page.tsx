@@ -25,7 +25,7 @@ export default function Index() {
               </div>
 
               <div className="mt-4 md:hidden text-sm leading-relaxed max-w-xl italic">
-                Dhen is figuring it out. Based in New York and Tokyo. Currently in {LOCATION}. 
+                Dhen is figuring it out. Based in London and Tokyo. Currently in {LOCATION}. 
               </div>
             </div>
           </div>
