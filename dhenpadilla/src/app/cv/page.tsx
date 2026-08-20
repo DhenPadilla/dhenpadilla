@@ -26,11 +26,11 @@ export default async function CV() {
                     <ul className="flex flex-col gap-2">
                         <li className="flex flex-row w-full justify-between">
                             <span className="text-sm/[1.25em]">2025-Present</span>
-                            <span className="ml-2 text-sm/[1.25em] italic">CTO, Streamline, New York, NY</span>
+                            <span className="ml-2 text-sm/[1.25em] italic">CTO, Streamline, UK</span>
                         </li>
                         <li className="flex flex-row w-full justify-between">
                             <span className="text-sm/[1.25em]">2023-2025</span>
-                            <span className="ml-2 text-sm/[1.25em] italic">Founding Engineer, Streamline, San Francisco, CA</span>
+                            <span className="ml-2 text-sm/[1.25em] italic">Founding Engineer, Streamline, UK</span>
                         </li>
                         <li className="flex flex-row w-full justify-between">
                             <span className="text-sm/[1.25em]">2022-2023</span>
