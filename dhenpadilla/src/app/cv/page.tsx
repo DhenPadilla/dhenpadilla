@@ -11,7 +11,7 @@ export default async function CV() {
         <article className="flex flex-col md:flex-row w-full gap-10">
             <div className="flex flex-row md:flex-col sticky md:h-[100vh] py-[56px] md:w-[24%] w-full">
                 <div className="text-[10pt] font-light italic">
-                    Dhen Padilla (b. 1998) is a software engineer and artist based in London and Tokyo.
+                    Dhen Padilla (b. 1998) is a software engineer and artist based in New York and Tokyo.
                     <br/>
                     His engineering practice is concerned with social issues, and reinvention.
                     <br />
@@ -26,11 +26,11 @@ export default async function CV() {
                     <ul className="flex flex-col gap-2">
                         <li className="flex flex-row w-full justify-between">
                             <span className="text-sm/[1.25em]">2025-Present</span>
-                            <span className="ml-2 text-sm/[1.25em] italic">CTO, Streamline, UK</span>
+                            <span className="ml-2 text-sm/[1.25em] italic">CTO, Streamline, New York, NY</span>
                         </li>
                         <li className="flex flex-row w-full justify-between">
                             <span className="text-sm/[1.25em]">2023-2025</span>
-                            <span className="ml-2 text-sm/[1.25em] italic">Founding Engineer, Streamline, UK</span>
+                            <span className="ml-2 text-sm/[1.25em] italic">Founding Engineer, Streamline, San Francisco, CA</span>
                         </li>
                         <li className="flex flex-row w-full justify-between">
                             <span className="text-sm/[1.25em]">2022-2023</span>
